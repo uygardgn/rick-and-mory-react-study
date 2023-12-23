@@ -1,0 +1,27 @@
+.mainLayout {
+  min-height: 100vh;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+.cardAndPaginate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.charCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  column-gap: 16px;
+  row-gap: 32px;
+  width: 80%;
+}
